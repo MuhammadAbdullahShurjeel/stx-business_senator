@@ -4,3 +4,5 @@
 - Dependencies : nh-keyboard
 
 Preview : https://streamable.com/2xqe4o
+
+join my discord : https://discord.gg/V8QanSnN3T
