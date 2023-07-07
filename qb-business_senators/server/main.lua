@@ -21,7 +21,7 @@ AddEventHandler("Give:Business:Job", function(source, job, grade)
         local Hanno = QBCore.Functions.GetPlayer(source)
         local Player = QBCore.Functions.GetPlayer(tonumber(source))
         if Player ~= nil then
-            if job == 'burgershot' or job == 'catcafe' or job == 'pizza' or job == 'beanmachine' or job == 'vu' or job == 'henhouse' or job == 'uwu' or job == 'uwucafe' or job == 'pizzathis' or job == 'pizzeria' or job == 'maldini' then
+            if job == 'burgershot' or job == 'catcafe' or job == 'pizza' or job == 'beanmachine' or job == 'vu' or job == 'henhouse' or job == 'uwu' or job == 'uwucafe' or job == 'pizzathis' or job == 'pizzeria' or job == 'maldini' or job == 'tow' or job == 'bennys' then
                 local Joba = tostring(job)
                 local Gradea = tonumber(grade)
                 Player.Functions.SetJob(Joba, Gradea)
